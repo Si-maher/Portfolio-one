@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += "responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
+    <header>
+      <div class="navbar" id="mynavbar">
+        <a href="index.html">HOME</a>
+        <a href="skills.html">SKILLS</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html" class="active">CONTACT</a>
+        <a href="https://www.integrify.fi/">INTEGRIFY</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i
+        ></a>
+      </div>
+    </header>
+
+    <div class="main-contact">
+      <form>
+        <fieldset>
+          <legend>CONTACT ME</legend>
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Please enter your name" /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" placeholder="123@gmail.com" /><br />
+
+          <label for="number">Contact Number:</label>
+          <input type="number" placeholder="Your number" /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea name="" id="" cols="30" rows="10"></textarea><br />
+
+          <label for="button"></label>
+          <input type="submit" name="" id="" />
+        </fieldset>
+      </form>
+    </div>
+    <br />
+
+    <hr />
+
+    <div class="footer">
+      <a href="https://twitter.com/?lang=en">Twitter</a>
+      <a
+        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+        >LinkedIn</a
+      >
+      <a href="https://www.integrify.fi/">Integrify</a>
+
+      <h3>&copy;Simon Maher 2019</h3>
+      <p>Vantaa, Finland</p>
+    </div>
+  </body>
+</html>

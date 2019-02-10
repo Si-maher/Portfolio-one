@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SKILLS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += "responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
+    <header>
+      <div class="navbar" id="mynavbar">
+        <a href="index.html">HOME</a>
+        <a href="skills.html" class="active">SKILLS</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="https://www.integrify.fi/">INTEGRIFY</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i
+        ></a>
+      </div>
+    </header>
+    <br />
+    <hr />
+    <div class="card-main">
+      <div class="card1">
+        <h1>HTML</h1>
+        <img src="./images/html.jpg" alt="" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="card2">
+        <h1>CSS</h1>
+        <img src="./images/css.jpg" alt="" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+
+      <div class="card3">
+        <h1>JavaScript</h1>
+        <img src="./images/java.jpg" alt="" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+
+      <div class="card4">
+        <h1>Mongodb</h1>
+        <img src="./images/mongo.jpg" alt="" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+    </div>
+    <br />
+    <hr />
+
+    <div class="footer">
+      <a href="https://twitter.com/?lang=en">Twitter</a>
+      <a
+        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+        >LinkedIn</a
+      >
+      <a href="https://www.integrify.fi/">Integrify</a>
+
+      <h3>&copy;Simon Maher 2019</h3>
+      <p>Vantaa, Finland</p>
+    </div>
+  </body>
+</html>

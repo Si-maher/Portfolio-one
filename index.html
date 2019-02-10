@@ -1,0 +1,104 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--=====================START JAVASCRIPT=================-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += "responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
+    <!--==================================END JAVA============-->
+
+    <!--======================START HEADER================-->
+    <header>
+      <div class="navbar" id="mynavbar">
+        <a href="index.html" class="active">HOME</a>
+        <a href="skills.html">SKILLS</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="https://www.integrify.fi/">INTEGRIFY</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i
+        ></a>
+      </div>
+      <img
+        class="head-photo"
+        src="./images/world.jpg"
+        alt="Picture of the world"
+      />
+    </header>
+    <br />
+
+    <hr />
+    <!--===========================END HEADER===============-->
+    <!--========================START ABOUT ME========-->
+    <div class="about-me">
+      <img class="me" src="./images/profile.jpg" alt="Profile pic" />
+      <h1>I'm Simon</h1>
+      <h2>A <span>PRO</span>-grammer</h2>
+      <p class="welcome">
+        Welcome to my Website, home of coding! Drink some coffee and enjoy
+        reading through my skills and portfolio pages.The future is coding, and
+        the future starts now!
+      </p>
+      <h3>Let's be in touch!</h3>
+    </div>
+    <br />
+
+    <hr />
+    <!--=====================END ABOUT ME=====-->
+
+    <!--================START SKILLS==========-->
+
+    <div class="skills">
+      <img src="./images/giphy.jpg" alt="code moving down the screen" />
+      <img src="./images/trycode.jpg" alt="text of try to code" />
+      <img src="./images/giphy.jpg" alt="code moving down the screen" />
+      <h1>My skills</h1>
+      <h2>HTML, CSS, JavaScript, React, Mongodb</h2>
+      <p class="current">
+        I am currently studying and coding every day in order to learn the
+        exciting but sometimes daunting world of languages. Coding is more than
+        just a job, it is a passion, a journey with endless boundaries and
+        possibilities!
+      </p>
+      <br />
+      <h3>Get In Touch!</h3>
+      <p>
+        If you would like to more about me and my work, then please drop me a
+        line the Contact page!
+      </p>
+    </div>
+    <br />
+    <hr />
+
+    <!--============START FOOTER==========-->
+    <div class="footer">
+      <a href="https://twitter.com/?lang=en">Twitter</a>
+      <a
+        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+        >LinkedIn</a
+      >
+      <a href="https://www.integrify.fi/">Integrify</a>
+
+      <h3>&copy;Simon Maher 2019</h3>
+      <p>Vantaa, Finland</p>
+    </div>
+    <!--============END FOOTER==========-->
+  </body>
+</html>
